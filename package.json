@@ -1,0 +1,9 @@
+{
+    "name": "angular-animate",
+    "version": "0.0.1",
+    "author": "kevin-smets",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-compass": "~0.3.0"
+    }
+}

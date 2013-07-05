@@ -1,0 +1,32 @@
+{
+    "name": "angular-animate",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/kevin-smets/angular-animate"
+    },
+
+//    "ignore": [
+//    ],
+//    "dependencies": {
+//    },
+    "devDependencies": {
+        "angular": "latest",
+        "animate.css": "latest"
+    },
+
+    "exportsOverride": {
+        "angular": {
+            "__untyped__": [
+                "angular.js",
+                "angular.min.js"
+            ]
+        },
+        "animate.css": {
+            "__untyped__": [
+                "animate.css",
+                "animate.min.css"
+            ]
+        }
+    }
+}
