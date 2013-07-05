@@ -1,0 +1,831 @@
+/* line 8, ../../src/style/angular-animate.sass */
+.flash {
+  -webkit-animation: flash 1s ease;
+  animation: flash 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.flash-enter,
+.flash-show {
+  -webkit-animation: flash 1s ease;
+  animation: flash 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.flash-leave,
+.flash-hide {
+  -webkit-animation: flash 1s ease;
+  animation: flash 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.flash-leave.touch-flash-leave-active,
+.flash-hide.touch-flash-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.bounce {
+  -webkit-animation: bounce 1s ease;
+  animation: bounce 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.bounce-enter,
+.bounce-show {
+  -webkit-animation: bounce 1s ease;
+  animation: bounce 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.bounce-leave,
+.bounce-hide {
+  -webkit-animation: bounce 1s ease;
+  animation: bounce 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.bounce-leave.touch-bounce-leave-active,
+.bounce-hide.touch-bounce-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.shake {
+  -webkit-animation: shake 1s ease;
+  animation: shake 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.shake-enter,
+.shake-show {
+  -webkit-animation: shake 1s ease;
+  animation: shake 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.shake-leave,
+.shake-hide {
+  -webkit-animation: shake 1s ease;
+  animation: shake 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.shake-leave.touch-shake-leave-active,
+.shake-hide.touch-shake-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.swing {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.swing-enter,
+.swing-show {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.swing-leave,
+.swing-hide {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.swing-leave.touch-swing-leave-active,
+.swing-hide.touch-swing-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.wobble {
+  -webkit-animation: wobble 1s ease;
+  animation: wobble 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.wobble-enter,
+.wobble-show {
+  -webkit-animation: wobble 1s ease;
+  animation: wobble 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.wobble-leave,
+.wobble-hide {
+  -webkit-animation: wobble 1s ease;
+  animation: wobble 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.wobble-leave.touch-wobble-leave-active,
+.wobble-hide.touch-wobble-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.wiggle {
+  -webkit-animation: wiggle 1s ease;
+  animation: wiggle 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.wiggle-enter,
+.wiggle-show {
+  -webkit-animation: wiggle 1s ease;
+  animation: wiggle 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.wiggle-leave,
+.wiggle-hide {
+  -webkit-animation: wiggle 1s ease;
+  animation: wiggle 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.wiggle-leave.touch-wiggle-leave-active,
+.wiggle-hide.touch-wiggle-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.pulse {
+  -webkit-animation: pulse 1s ease;
+  animation: pulse 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.pulse-enter,
+.pulse-show {
+  -webkit-animation: pulse 1s ease;
+  animation: pulse 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.pulse-leave,
+.pulse-hide {
+  -webkit-animation: pulse 1s ease;
+  animation: pulse 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.pulse-leave.touch-pulse-leave-active,
+.pulse-hide.touch-pulse-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.flip {
+  -webkit-animation: flip 1s ease;
+  animation: flip 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.flip-enter,
+.flip-show {
+  -webkit-animation: flip 1s ease;
+  animation: flip 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.flip-leave,
+.flip-hide {
+  -webkit-animation: flip 1s ease;
+  animation: flip 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.flip-leave.touch-flip-leave-active,
+.flip-hide.touch-flip-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.flipX {
+  -webkit-animation: flipInX 1s ease;
+  animation: flipInX 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.flipX-enter,
+.flipX-show {
+  -webkit-animation: flipInX 1s ease;
+  animation: flipInX 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.flipX-leave,
+.flipX-hide {
+  -webkit-animation: flipOutX 1s ease;
+  animation: flipOutX 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.flipX-leave.touch-flipX-leave-active,
+.flipX-hide.touch-flipX-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.flipY {
+  -webkit-animation: flipInY 1s ease;
+  animation: flipInY 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.flipY-enter,
+.flipY-show {
+  -webkit-animation: flipInY 1s ease;
+  animation: flipInY 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.flipY-leave,
+.flipY-hide {
+  -webkit-animation: flipOutY 1s ease;
+  animation: flipOutY 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.flipY-leave.touch-flipY-leave-active,
+.flipY-hide.touch-flipY-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.fade {
+  -webkit-animation: fadeIn 1s ease;
+  animation: fadeIn 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.fade-enter,
+.fade-show {
+  -webkit-animation: fadeIn 1s ease;
+  animation: fadeIn 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.fade-leave,
+.fade-hide {
+  -webkit-animation: fadeOut 1s ease;
+  animation: fadeOut 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.fade-leave.touch-fade-leave-active,
+.fade-hide.touch-fade-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.fadeUp {
+  -webkit-animation: fadeInUp 1s ease;
+  animation: fadeInUp 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.fadeUp-enter,
+.fadeUp-show {
+  -webkit-animation: fadeInUp 1s ease;
+  animation: fadeInUp 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.fadeUp-leave,
+.fadeUp-hide {
+  -webkit-animation: fadeOutUp 1s ease;
+  animation: fadeOutUp 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.fadeUp-leave.touch-fadeUp-leave-active,
+.fadeUp-hide.touch-fadeUp-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.fadeUpBig {
+  -webkit-animation: fadeInUpBig 1s ease;
+  animation: fadeInUpBig 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.fadeUpBig-enter,
+.fadeUpBig-show {
+  -webkit-animation: fadeInUpBig 1s ease;
+  animation: fadeInUpBig 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.fadeUpBig-leave,
+.fadeUpBig-hide {
+  -webkit-animation: fadeOutUpBig 1s ease;
+  animation: fadeOutUpBig 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.fadeUpBig-leave.touch-fadeUpBig-leave-active,
+.fadeUpBig-hide.touch-fadeUpBig-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.fadeDown {
+  -webkit-animation: fadeInDown 1s ease;
+  animation: fadeInDown 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.fadeDown-enter,
+.fadeDown-show {
+  -webkit-animation: fadeInDown 1s ease;
+  animation: fadeInDown 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.fadeDown-leave,
+.fadeDown-hide {
+  -webkit-animation: fadeOutDown 1s ease;
+  animation: fadeOutDown 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.fadeDown-leave.touch-fadeDown-leave-active,
+.fadeDown-hide.touch-fadeDown-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.fadeDownBig {
+  -webkit-animation: fadeInDownBig 1s ease;
+  animation: fadeInDownBig 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.fadeDownBig-enter,
+.fadeDownBig-show {
+  -webkit-animation: fadeInDownBig 1s ease;
+  animation: fadeInDownBig 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.fadeDownBig-leave,
+.fadeDownBig-hide {
+  -webkit-animation: fadeOutDownBig 1s ease;
+  animation: fadeOutDownBig 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.fadeDownBig-leave.touch-fadeDownBig-leave-active,
+.fadeDownBig-hide.touch-fadeDownBig-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.fadeLeft {
+  -webkit-animation: fadeInLeft 1s ease;
+  animation: fadeInLeft 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.fadeLeft-enter,
+.fadeLeft-show {
+  -webkit-animation: fadeInLeft 1s ease;
+  animation: fadeInLeft 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.fadeLeft-leave,
+.fadeLeft-hide {
+  -webkit-animation: fadeOutLeft 1s ease;
+  animation: fadeOutLeft 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.fadeLeft-leave.touch-fadeLeft-leave-active,
+.fadeLeft-hide.touch-fadeLeft-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.fadeLeftBig {
+  -webkit-animation: fadeInLeftBig 1s ease;
+  animation: fadeInLeftBig 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.fadeLeftBig-enter,
+.fadeLeftBig-show {
+  -webkit-animation: fadeInLeftBig 1s ease;
+  animation: fadeInLeftBig 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.fadeLeftBig-leave,
+.fadeLeftBig-hide {
+  -webkit-animation: fadeOutLeftBig 1s ease;
+  animation: fadeOutLeftBig 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.fadeLeftBig-leave.touch-fadeLeftBig-leave-active,
+.fadeLeftBig-hide.touch-fadeLeftBig-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.fadeRight {
+  -webkit-animation: fadeInRight 1s ease;
+  animation: fadeInRight 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.fadeRight-enter,
+.fadeRight-show {
+  -webkit-animation: fadeInRight 1s ease;
+  animation: fadeInRight 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.fadeRight-leave,
+.fadeRight-hide {
+  -webkit-animation: fadeOutRight 1s ease;
+  animation: fadeOutRight 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.fadeRight-leave.touch-fadeRight-leave-active,
+.fadeRight-hide.touch-fadeRight-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.fadeRightBig {
+  -webkit-animation: fadeInRightBig 1s ease;
+  animation: fadeInRightBig 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.fadeRightBig-enter,
+.fadeRightBig-show {
+  -webkit-animation: fadeInRightBig 1s ease;
+  animation: fadeInRightBig 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.fadeRightBig-leave,
+.fadeRightBig-hide {
+  -webkit-animation: fadeOutRightBig 1s ease;
+  animation: fadeOutRightBig 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.fadeRightBig-leave.touch-fadeRightBig-leave-active,
+.fadeRightBig-hide.touch-fadeRightBig-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.bounceInOut {
+  -webkit-animation: bounceIn 1s ease;
+  animation: bounceIn 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.bounceInOut-enter,
+.bounceInOut-show {
+  -webkit-animation: bounceIn 1s ease;
+  animation: bounceIn 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.bounceInOut-leave,
+.bounceInOut-hide {
+  -webkit-animation: bounceOut 1s ease;
+  animation: bounceOut 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.bounceInOut-leave.touch-bounceInOut-leave-active,
+.bounceInOut-hide.touch-bounceInOut-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.bounceUp {
+  -webkit-animation: bounceInUp 1s ease;
+  animation: bounceInUp 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.bounceUp-enter,
+.bounceUp-show {
+  -webkit-animation: bounceInUp 1s ease;
+  animation: bounceInUp 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.bounceUp-leave,
+.bounceUp-hide {
+  -webkit-animation: bounceOutUp 1s ease;
+  animation: bounceOutUp 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.bounceUp-leave.touch-bounceUp-leave-active,
+.bounceUp-hide.touch-bounceUp-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.bounceDown {
+  -webkit-animation: bounceInDown 1s ease;
+  animation: bounceInDown 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.bounceDown-enter,
+.bounceDown-show {
+  -webkit-animation: bounceInDown 1s ease;
+  animation: bounceInDown 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.bounceDown-leave,
+.bounceDown-hide {
+  -webkit-animation: bounceOutDown 1s ease;
+  animation: bounceOutDown 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.bounceDown-leave.touch-bounceDown-leave-active,
+.bounceDown-hide.touch-bounceDown-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.bounceLeft {
+  -webkit-animation: bounceInLeft 1s ease;
+  animation: bounceInLeft 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.bounceLeft-enter,
+.bounceLeft-show {
+  -webkit-animation: bounceInLeft 1s ease;
+  animation: bounceInLeft 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.bounceLeft-leave,
+.bounceLeft-hide {
+  -webkit-animation: bounceOutLeft 1s ease;
+  animation: bounceOutLeft 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.bounceLeft-leave.touch-bounceLeft-leave-active,
+.bounceLeft-hide.touch-bounceLeft-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.bounceRight {
+  -webkit-animation: bounceInRight 1s ease;
+  animation: bounceInRight 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.bounceRight-enter,
+.bounceRight-show {
+  -webkit-animation: bounceInRight 1s ease;
+  animation: bounceInRight 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.bounceRight-leave,
+.bounceRight-hide {
+  -webkit-animation: bounceOutRight 1s ease;
+  animation: bounceOutRight 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.bounceRight-leave.touch-bounceRight-leave-active,
+.bounceRight-hide.touch-bounceRight-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.rotate {
+  -webkit-animation: rotateIn 1s ease;
+  animation: rotateIn 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.rotate-enter,
+.rotate-show {
+  -webkit-animation: rotateIn 1s ease;
+  animation: rotateIn 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.rotate-leave,
+.rotate-hide {
+  -webkit-animation: rotateOut 1s ease;
+  animation: rotateOut 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.rotate-leave.touch-rotate-leave-active,
+.rotate-hide.touch-rotate-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.rotateUp {
+  -webkit-animation: rotateInUp 1s ease;
+  animation: rotateInUp 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.rotateUp-enter,
+.rotateUp-show {
+  -webkit-animation: rotateInUp 1s ease;
+  animation: rotateInUp 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.rotateUp-leave,
+.rotateUp-hide {
+  -webkit-animation: rotateOutUp 1s ease;
+  animation: rotateOutUp 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.rotateUp-leave.touch-rotateUp-leave-active,
+.rotateUp-hide.touch-rotateUp-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.rotateDown {
+  -webkit-animation: rotateInDown 1s ease;
+  animation: rotateInDown 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.rotateDown-enter,
+.rotateDown-show {
+  -webkit-animation: rotateInDown 1s ease;
+  animation: rotateInDown 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.rotateDown-leave,
+.rotateDown-hide {
+  -webkit-animation: rotateOutDown 1s ease;
+  animation: rotateOutDown 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.rotateDown-leave.touch-rotateDown-leave-active,
+.rotateDown-hide.touch-rotateDown-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.rotateLeft {
+  -webkit-animation: rotateInLeft 1s ease;
+  animation: rotateInLeft 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.rotateLeft-enter,
+.rotateLeft-show {
+  -webkit-animation: rotateInLeft 1s ease;
+  animation: rotateInLeft 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.rotateLeft-leave,
+.rotateLeft-hide {
+  -webkit-animation: rotateOutLeft 1s ease;
+  animation: rotateOutLeft 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.rotateLeft-leave.touch-rotateLeft-leave-active,
+.rotateLeft-hide.touch-rotateLeft-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.rotateRight {
+  -webkit-animation: rotateInRight 1s ease;
+  animation: rotateInRight 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.rotateRight-enter,
+.rotateRight-show {
+  -webkit-animation: rotateInRight 1s ease;
+  animation: rotateInRight 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.rotateRight-leave,
+.rotateRight-hide {
+  -webkit-animation: rotateOutRight 1s ease;
+  animation: rotateOutRight 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.rotateRight-leave.touch-rotateRight-leave-active,
+.rotateRight-hide.touch-rotateRight-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.lightSpeed {
+  -webkit-animation: lightSpeedIn 1s ease;
+  animation: lightSpeedIn 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.lightSpeed-enter,
+.lightSpeed-show {
+  -webkit-animation: lightSpeedIn 1s ease;
+  animation: lightSpeedIn 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.lightSpeed-leave,
+.lightSpeed-hide {
+  -webkit-animation: lightSpeedOut 1s ease;
+  animation: lightSpeedOut 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.lightSpeed-leave.touch-lightSpeed-leave-active,
+.lightSpeed-hide.touch-lightSpeed-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.hinge {
+  -webkit-animation: hinge 1s ease;
+  animation: hinge 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.hinge-enter,
+.hinge-show {
+  -webkit-animation: hinge 1s ease;
+  animation: hinge 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.hinge-leave,
+.hinge-hide {
+  -webkit-animation: hinge 1s ease;
+  animation: hinge 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.hinge-leave.touch-hinge-leave-active,
+.hinge-hide.touch-hinge-hide-active {
+  opacity: 0;
+}
+
+/* line 8, ../../src/style/angular-animate.sass */
+.roll {
+  -webkit-animation: rollIn 1s ease;
+  animation: rollIn 1s ease;
+}
+
+/* line 11, ../../src/style/angular-animate.sass */
+.roll-enter,
+.roll-show {
+  -webkit-animation: rollIn 1s ease;
+  animation: rollIn 1s ease;
+}
+
+/* line 15, ../../src/style/angular-animate.sass */
+.roll-leave,
+.roll-hide {
+  -webkit-animation: rollOut 1s ease;
+  animation: rollOut 1s ease;
+}
+
+/* line 19, ../../src/style/angular-animate.sass */
+.roll-leave.touch-roll-leave-active,
+.roll-hide.touch-roll-hide-active {
+  opacity: 0;
+}

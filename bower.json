@@ -5,16 +5,10 @@
         "type": "git",
         "url": "git://github.com/kevin-smets/angular-animate"
     },
-
-//    "ignore": [
-//    ],
-//    "dependencies": {
-//    },
     "devDependencies": {
-        "angular": "latest",
+        "angular": "PatternConsulting/bower-angular#1.1.5",
         "animate.css": "latest"
     },
-
     "exportsOverride": {
         "angular": {
             "__untyped__": [

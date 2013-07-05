@@ -1,0 +1,68 @@
+$animation-duration: 1s
+
+=animation($name)
+  -webkit-animation: $name $animation-duration ease
+  animation: $name $animation-duration ease
+
+=ng-animation($ng-animate, $animation-in, $animation-out)
+  .#{$ng-animate}
+    +animation($animation-in)
+
+  .#{$ng-animate}-enter,
+  .#{$ng-animate}-show
+    +animation($animation-in)
+
+  .#{$ng-animate}-leave,
+  .#{$ng-animate}-hide
+    +animation($animation-out)
+
+  .#{$ng-animate}-leave.touch-#{$ng-animate}-leave-active,
+  .#{$ng-animate}-hide.touch-#{$ng-animate}-hide-active
+    opacity: 0
+
+// Attention seekers
+
+$attention-seekers: (flash, bounce, shake, swing, wobble, wiggle, pulse)
+
+@each $attention-seeker in $attention-seekers
+  +ng-animation(#{$attention-seeker}, #{$attention-seeker}, #{$attention-seeker})
+
+// Flippers
+
++ng-animation(flip, flip, flip)
+
+$flips: ('X', 'Y')
+
+@each $flip in $flips
+  +ng-animation(flip#{$flip}, flipIn#{$flip}, flipOut#{$flip})
+
+// Fading entrances / exits
+
++ng-animation(fade, fadeIn, fadeOut)
+
+$directions: ('Up', 'Down', 'Left', 'Right')
+$modifiers: ('', 'Big')
+
+@each $direction in $directions
+  @each $modifier in $modifiers
+    +ng-animation(fade#{$direction}#{$modifier}, fadeIn#{$direction}#{$modifier}, fadeOut#{$direction}#{$modifier})
+
+// Bouncing entrances / exits
+
++ng-animation(bounceInOut, bounceIn, bounceOut)
+
+@each $direction in $directions
+  +ng-animation(bounce#{$direction}, bounceIn#{$direction}, bounceOut#{$direction})
+
+// Rotating entrances / exits
+
++ng-animation(rotate, rotateIn, rotateOut)
+
+@each $direction in $directions
+  +ng-animation(rotate#{$direction}, rotateIn#{$direction}, rotateOut#{$direction})
+
++ng-animation(lightSpeed, lightSpeedIn, lightSpeedOut)
+
++ng-animation(hinge, hinge, hinge)
+
++ng-animation(roll, rollIn, rollOut)
