@@ -1,0 +1,14 @@
+{
+  "name": "angular-animate",
+  "version": "0.0.1",
+  "author": "kevin-smets",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-compass": "~0.3.0",
+    "grunt-bower-task": "~0.2.3",
+    "grunt-contrib-jade": "~0.7.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0"
+  }
+}
