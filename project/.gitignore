@@ -1,4 +1,5 @@
 .idea
-.sass-cache
-src/lib
-node_modules
+project/.sass-cache
+project/build
+project/src/lib
+project/node_modules
