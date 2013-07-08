@@ -10,7 +10,7 @@ First of, you'll need animate.css and angular. When that's done, include angular
 
 You can now animate the appropriate angular directives: e.g.
 
-``
+```
 <div class="animated" ng-if="isVisible()" ng-animate="'fade'"></div>
 ```
 
