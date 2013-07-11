@@ -1,0 +1,9 @@
+{
+    "name": "angular-animate",
+    "version": "0.1.0",
+    "main": ["angular-animate.css", "angular-animate.min.css"],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/kevin-smets/angular-animate"
+    }
+}

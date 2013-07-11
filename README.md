@@ -4,7 +4,7 @@ Angular-animate is a collection of animation helpers for AngularJS web apps.
 
 ## Get started
 
-First of, you'll need animate.css and angular (1.1.5 and up). When that's done, include angular-animate[.min].css after animate.css.
+First of, you'll need animate.css and angular (1.1.5 and up). When that's done, include angular-animate[.min].css after animate.css into your project.
 
 Animate.css -> https://github.com/daneden/animate.css#attention-seekers
 AngularJS -> http://angularjs.org
@@ -12,6 +12,14 @@ AngularJS -> http://angularjs.org
 More info on animation in AngularJS
 
 Yearofmoo -> http://www.yearofmoo.com/2013/05/enhanced-animations-in-angularjs.html
+
+## Install using bower
+
+Angular-animate is also available through bower:
+
+```
+bower install angular-animate.css
+```
 
 ## Basic usage
 

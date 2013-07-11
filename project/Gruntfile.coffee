@@ -86,13 +86,13 @@ module.exports = (grunt) ->
         options:
           livereload: true
 
+  grunt.loadNpmTasks "grunt-bower-task"
   grunt.loadNpmTasks "grunt-contrib-clean"
-  grunt.loadNpmTasks('grunt-contrib-connect')
-  grunt.loadNpmTasks "grunt-contrib-compass"
   grunt.loadNpmTasks "grunt-contrib-coffee"
+  grunt.loadNpmTasks "grunt-contrib-compass"
+  grunt.loadNpmTasks 'grunt-contrib-connect'
   grunt.loadNpmTasks "grunt-contrib-jade"
   grunt.loadNpmTasks "grunt-contrib-watch"
-  grunt.loadNpmTasks "grunt-bower-task"
 
   # Default task(s).
   grunt.registerTask "default", ["bower:production", "clean:all", "coffee", "compass", "jade", "connect", "watch"]
