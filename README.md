@@ -1,6 +1,6 @@
 # Angular-animate
 
-Angular-animate is a collection of animation helpers for AngularJS web apps.
+Angular-animate is a collection of animation helpers for AngularJS web apps. Demo page is here: http://cdpn.io/rznBj
 
 ## Get started
 
@@ -97,4 +97,5 @@ hinge rollIn rollOut
 
 # Version history
 
+2013-07-11: v1.0.0 Bump to v1.0.0
 2013-07-08: First public release
