@@ -6,14 +6,14 @@ Demo page is here: http://cdpn.io/rznBj
 
 ## Get started
 
-First of, you'll need animate.css and angular (1.1.5 and up). When that's done, include angular-animate[.min].css after animate.css into your project.
+First of, you'll need animate.css (latest) and angular (1.2.0rc1+). When that's done, include angular-animate[.min].css after animate.css into your project.
 
-Animate.css -> https://github.com/daneden/animate.css#attention-seekers
+Animate.css -> https://github.com/daneden/animate.css
 AngularJS -> http://angularjs.org
 
-More info on animation in AngularJS
+More info on animation in AngularJS (1.2.0rc1)
 
-Yearofmoo -> http://www.yearofmoo.com/2013/05/enhanced-animations-in-angularjs.html
+Yearofmoo -> http://www.yearofmoo.com/2013/08/remastered-animation-in-angularjs-1-2.html
 
 ## Install using bower
 
@@ -28,32 +28,18 @@ bower install angular-animate.css
 You can now animate the appropriate angular directives: e.g.
 
 ```
-<div class="animated" ng-if="isVisible()" ng-animate="'fade'"></div>
+<div class="animated" ng-if="isVisible()" ng-class="'fade'"></div>
 ```
 
-This will trigger the fade animation on enter / show and leave / hide. If you only want fade on enter, you have to use
+This will trigger the fade animation on enter / show and leave / hide.
 
-```
-<div class="animated" ng-if="isVisible()" ng-animate="{enter: 'fade-enter'}"></div>
-```
-
-In and Out animations are combined, so if you use
-
-```
-<div class="animated" ng-if="isVisible()" ng-animate="'fadeUp'"></div>
-```
-
-This will trigger fadeInUp on enter and fadeOutUp on leave. If you want this differently (e.g. fadeOutDown on leave / hide), you'll have to define the enter and leave seperately.
-
-```
-<div class="animated" ng-if="isVisible()" ng-animate="'{enter: 'fadeUp-enter', leave: 'fadeDown-leave'}'"></div>
-```
+(More examples will follow)
 
 All of the animate.css animations are currently available.
 
 ### Attention seekers
 
-flash bounce shake tada swing wobble wiggle pulse
+flash bounce shake tada swing wobble pulse
 
 ### Flippers (currently Webkit, Firefox, & IE10 only):
 
@@ -99,6 +85,7 @@ hinge rollIn rollOut
 
 # Version history
 
+- 2013-08-22: update to angular.js 1.2.0rc1
 - 2013-08-08: proper semver for bower
 - 2013-07-11: v1.0.0 Bump to v1.0.0
 - 2013-07-08: First public release
