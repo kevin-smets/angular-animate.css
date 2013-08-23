@@ -6,7 +6,7 @@ Demo page is here: http://cdpn.io/rznBj
 
 ## Get started
 
-First of, you'll need animate.css and angular (1.1.5 and up). When that's done, include angular-animate[.min].css after animate.css into your project.
+First of, you'll need animate.css and angular (1.1.5). When that's done, include angular-animate[.min].css after animate.css into your project.
 
 Animate.css -> https://github.com/daneden/animate.css#attention-seekers
 AngularJS -> http://angularjs.org
