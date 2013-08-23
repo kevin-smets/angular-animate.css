@@ -1,767 +1,1407 @@
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.flash {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
-}
-
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.flash-add {
+/* line 8, src/style/angular-animate.sass */
+.flash {
   -webkit-animation-name: flash;
-  -moz-animation-name: flash;
-  -o-animation-name: flash;
   animation-name: flash;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.flash-remove {
+/* line 11, src/style/angular-animate.sass */
+.flash-enter,
+.flash-show {
   -webkit-animation-name: flash;
-  -moz-animation-name: flash;
-  -o-animation-name: flash;
   animation-name: flash;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.bounce {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 15, src/style/angular-animate.sass */
+.flash-leave,
+.flash-hide {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.bounce-add {
+/* line 19, src/style/angular-animate.sass */
+.fade.flash-enter,
+.flash-show {
+  opacity: 0;
+}
+
+/* line 23, src/style/angular-animate.sass */
+.fade.flash-enter.flash-enter-active,
+.fade.flash-show.flash-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.flash-leave.flash-leave-active,
+.fade.flash-hide.flash-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.bounce {
   -webkit-animation-name: bounce;
-  -moz-animation-name: bounce;
-  -o-animation-name: bounce;
   animation-name: bounce;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.bounce-remove {
+/* line 11, src/style/angular-animate.sass */
+.bounce-enter,
+.bounce-show {
   -webkit-animation-name: bounce;
-  -moz-animation-name: bounce;
-  -o-animation-name: bounce;
   animation-name: bounce;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.shake {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 15, src/style/angular-animate.sass */
+.bounce-leave,
+.bounce-hide {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.shake-add {
+/* line 19, src/style/angular-animate.sass */
+.fade.bounce-enter,
+.bounce-show {
+  opacity: 0;
+}
+
+/* line 23, src/style/angular-animate.sass */
+.fade.bounce-enter.bounce-enter-active,
+.fade.bounce-show.bounce-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.bounce-leave.bounce-leave-active,
+.fade.bounce-hide.bounce-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.shake {
   -webkit-animation-name: shake;
-  -moz-animation-name: shake;
-  -o-animation-name: shake;
   animation-name: shake;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.shake-remove {
+/* line 11, src/style/angular-animate.sass */
+.shake-enter,
+.shake-show {
   -webkit-animation-name: shake;
-  -moz-animation-name: shake;
-  -o-animation-name: shake;
   animation-name: shake;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.tada {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 15, src/style/angular-animate.sass */
+.shake-leave,
+.shake-hide {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.tada-add {
-  -webkit-animation-name: tada;
-  -moz-animation-name: tada;
-  -o-animation-name: tada;
-  animation-name: tada;
+/* line 19, src/style/angular-animate.sass */
+.fade.shake-enter,
+.shake-show {
+  opacity: 0;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.tada-remove {
-  -webkit-animation-name: tada;
-  -moz-animation-name: tada;
-  -o-animation-name: tada;
-  animation-name: tada;
+/* line 23, src/style/angular-animate.sass */
+.fade.shake-enter.shake-enter-active,
+.fade.shake-show.shake-show-active {
+  opacity: 1;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.swing {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 27, src/style/angular-animate.sass */
+.fade.shake-leave.shake-leave-active,
+.fade.shake-hide.shake-hide-active {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.swing-add {
+/* line 8, src/style/angular-animate.sass */
+.swing {
   -webkit-animation-name: swing;
-  -moz-animation-name: swing;
-  -o-animation-name: swing;
   animation-name: swing;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.swing-remove {
+/* line 11, src/style/angular-animate.sass */
+.swing-enter,
+.swing-show {
   -webkit-animation-name: swing;
-  -moz-animation-name: swing;
-  -o-animation-name: swing;
   animation-name: swing;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.wobble {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 15, src/style/angular-animate.sass */
+.swing-leave,
+.swing-hide {
+  -webkit-animation-name: swing;
+  animation-name: swing;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.wobble-add {
+/* line 19, src/style/angular-animate.sass */
+.fade.swing-enter,
+.swing-show {
+  opacity: 0;
+}
+
+/* line 23, src/style/angular-animate.sass */
+.fade.swing-enter.swing-enter-active,
+.fade.swing-show.swing-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.swing-leave.swing-leave-active,
+.fade.swing-hide.swing-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.wobble {
   -webkit-animation-name: wobble;
-  -moz-animation-name: wobble;
-  -o-animation-name: wobble;
   animation-name: wobble;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.wobble-remove {
+/* line 11, src/style/angular-animate.sass */
+.wobble-enter,
+.wobble-show {
   -webkit-animation-name: wobble;
-  -moz-animation-name: wobble;
-  -o-animation-name: wobble;
   animation-name: wobble;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.pulse {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 15, src/style/angular-animate.sass */
+.wobble-leave,
+.wobble-hide {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.pulse-add {
+/* line 19, src/style/angular-animate.sass */
+.fade.wobble-enter,
+.wobble-show {
+  opacity: 0;
+}
+
+/* line 23, src/style/angular-animate.sass */
+.fade.wobble-enter.wobble-enter-active,
+.fade.wobble-show.wobble-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.wobble-leave.wobble-leave-active,
+.fade.wobble-hide.wobble-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.wiggle {
+  -webkit-animation-name: wiggle;
+  animation-name: wiggle;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 11, src/style/angular-animate.sass */
+.wiggle-enter,
+.wiggle-show {
+  -webkit-animation-name: wiggle;
+  animation-name: wiggle;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.wiggle-leave,
+.wiggle-hide {
+  -webkit-animation-name: wiggle;
+  animation-name: wiggle;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 19, src/style/angular-animate.sass */
+.fade.wiggle-enter,
+.wiggle-show {
+  opacity: 0;
+}
+
+/* line 23, src/style/angular-animate.sass */
+.fade.wiggle-enter.wiggle-enter-active,
+.fade.wiggle-show.wiggle-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.wiggle-leave.wiggle-leave-active,
+.fade.wiggle-hide.wiggle-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.pulse {
   -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -o-animation-name: pulse;
   animation-name: pulse;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.pulse-remove {
+/* line 11, src/style/angular-animate.sass */
+.pulse-enter,
+.pulse-show {
   -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -o-animation-name: pulse;
   animation-name: pulse;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.flip {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 15, src/style/angular-animate.sass */
+.pulse-leave,
+.pulse-hide {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.flip-add {
+/* line 19, src/style/angular-animate.sass */
+.fade.pulse-enter,
+.pulse-show {
+  opacity: 0;
+}
+
+/* line 23, src/style/angular-animate.sass */
+.fade.pulse-enter.pulse-enter-active,
+.fade.pulse-show.pulse-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.pulse-leave.pulse-leave-active,
+.fade.pulse-hide.pulse-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.flip {
   -webkit-animation-name: flip;
-  -moz-animation-name: flip;
-  -o-animation-name: flip;
   animation-name: flip;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.flip-remove {
+/* line 11, src/style/angular-animate.sass */
+.flip-enter,
+.flip-show {
   -webkit-animation-name: flip;
-  -moz-animation-name: flip;
-  -o-animation-name: flip;
   animation-name: flip;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.flipX {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 15, src/style/angular-animate.sass */
+.flip-leave,
+.flip-hide {
+  -webkit-animation-name: flip;
+  animation-name: flip;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.flipX-add {
+/* line 19, src/style/angular-animate.sass */
+.fade.flip-enter,
+.flip-show {
+  opacity: 0;
+}
+
+/* line 23, src/style/angular-animate.sass */
+.fade.flip-enter.flip-enter-active,
+.fade.flip-show.flip-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.flip-leave.flip-leave-active,
+.fade.flip-hide.flip-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.flipX {
   -webkit-animation-name: flipInX;
-  -moz-animation-name: flipInX;
-  -o-animation-name: flipInX;
   animation-name: flipInX;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.flipX-remove {
+/* line 11, src/style/angular-animate.sass */
+.flipX-enter,
+.flipX-show {
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.flipX-leave,
+.flipX-hide {
   -webkit-animation-name: flipOutX;
-  -moz-animation-name: flipOutX;
-  -o-animation-name: flipOutX;
   animation-name: flipOutX;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.flipY {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.flipX-enter,
+.flipX-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.flipY-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.flipX-enter.flipX-enter-active,
+.fade.flipX-show.flipX-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.flipX-leave.flipX-leave-active,
+.fade.flipX-hide.flipX-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.flipY {
   -webkit-animation-name: flipInY;
-  -moz-animation-name: flipInY;
-  -o-animation-name: flipInY;
   animation-name: flipInY;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.flipY-remove {
+/* line 11, src/style/angular-animate.sass */
+.flipY-enter,
+.flipY-show {
+  -webkit-animation-name: flipInY;
+  animation-name: flipInY;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.flipY-leave,
+.flipY-hide {
   -webkit-animation-name: flipOutY;
-  -moz-animation-name: flipOutY;
-  -o-animation-name: flipOutY;
   animation-name: flipOutY;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.fade {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.flipY-enter,
+.flipY-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.fade-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.flipY-enter.flipY-enter-active,
+.fade.flipY-show.flipY-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.flipY-leave.flipY-leave-active,
+.fade.flipY-hide.flipY-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.fade {
   -webkit-animation-name: fadeIn;
-  -moz-animation-name: fadeIn;
-  -o-animation-name: fadeIn;
   animation-name: fadeIn;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.fade-remove {
+/* line 11, src/style/angular-animate.sass */
+.fade-enter,
+.fade-show {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.fade-leave,
+.fade-hide {
   -webkit-animation-name: fadeOut;
-  -moz-animation-name: fadeOut;
-  -o-animation-name: fadeOut;
   animation-name: fadeOut;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.fadeUp {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.fade-enter,
+.fade-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.fadeUp-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.fade-enter.fade-enter-active,
+.fade.fade-show.fade-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.fade-leave.fade-leave-active,
+.fade.fade-hide.fade-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.fadeUp {
   -webkit-animation-name: fadeInUp;
-  -moz-animation-name: fadeInUp;
-  -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.fadeUp-remove {
+/* line 11, src/style/angular-animate.sass */
+.fadeUp-enter,
+.fadeUp-show {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.fadeUp-leave,
+.fadeUp-hide {
   -webkit-animation-name: fadeOutUp;
-  -moz-animation-name: fadeOutUp;
-  -o-animation-name: fadeOutUp;
   animation-name: fadeOutUp;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.fadeUpBig {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.fadeUp-enter,
+.fadeUp-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.fadeUpBig-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.fadeUp-enter.fadeUp-enter-active,
+.fade.fadeUp-show.fadeUp-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.fadeUp-leave.fadeUp-leave-active,
+.fade.fadeUp-hide.fadeUp-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.fadeUpBig {
   -webkit-animation-name: fadeInUpBig;
-  -moz-animation-name: fadeInUpBig;
-  -o-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.fadeUpBig-remove {
+/* line 11, src/style/angular-animate.sass */
+.fadeUpBig-enter,
+.fadeUpBig-show {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.fadeUpBig-leave,
+.fadeUpBig-hide {
   -webkit-animation-name: fadeOutUpBig;
-  -moz-animation-name: fadeOutUpBig;
-  -o-animation-name: fadeOutUpBig;
   animation-name: fadeOutUpBig;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.fadeDown {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.fadeUpBig-enter,
+.fadeUpBig-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.fadeDown-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.fadeUpBig-enter.fadeUpBig-enter-active,
+.fade.fadeUpBig-show.fadeUpBig-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.fadeUpBig-leave.fadeUpBig-leave-active,
+.fade.fadeUpBig-hide.fadeUpBig-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.fadeDown {
   -webkit-animation-name: fadeInDown;
-  -moz-animation-name: fadeInDown;
-  -o-animation-name: fadeInDown;
   animation-name: fadeInDown;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.fadeDown-remove {
+/* line 11, src/style/angular-animate.sass */
+.fadeDown-enter,
+.fadeDown-show {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.fadeDown-leave,
+.fadeDown-hide {
   -webkit-animation-name: fadeOutDown;
-  -moz-animation-name: fadeOutDown;
-  -o-animation-name: fadeOutDown;
   animation-name: fadeOutDown;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.fadeDownBig {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.fadeDown-enter,
+.fadeDown-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.fadeDownBig-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.fadeDown-enter.fadeDown-enter-active,
+.fade.fadeDown-show.fadeDown-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.fadeDown-leave.fadeDown-leave-active,
+.fade.fadeDown-hide.fadeDown-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.fadeDownBig {
   -webkit-animation-name: fadeInDownBig;
-  -moz-animation-name: fadeInDownBig;
-  -o-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.fadeDownBig-remove {
+/* line 11, src/style/angular-animate.sass */
+.fadeDownBig-enter,
+.fadeDownBig-show {
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.fadeDownBig-leave,
+.fadeDownBig-hide {
   -webkit-animation-name: fadeOutDownBig;
-  -moz-animation-name: fadeOutDownBig;
-  -o-animation-name: fadeOutDownBig;
   animation-name: fadeOutDownBig;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.fadeLeft {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.fadeDownBig-enter,
+.fadeDownBig-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.fadeLeft-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.fadeDownBig-enter.fadeDownBig-enter-active,
+.fade.fadeDownBig-show.fadeDownBig-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.fadeDownBig-leave.fadeDownBig-leave-active,
+.fade.fadeDownBig-hide.fadeDownBig-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.fadeLeft {
   -webkit-animation-name: fadeInLeft;
-  -moz-animation-name: fadeInLeft;
-  -o-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.fadeLeft-remove {
+/* line 11, src/style/angular-animate.sass */
+.fadeLeft-enter,
+.fadeLeft-show {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.fadeLeft-leave,
+.fadeLeft-hide {
   -webkit-animation-name: fadeOutLeft;
-  -moz-animation-name: fadeOutLeft;
-  -o-animation-name: fadeOutLeft;
   animation-name: fadeOutLeft;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.fadeLeftBig {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.fadeLeft-enter,
+.fadeLeft-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.fadeLeftBig-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.fadeLeft-enter.fadeLeft-enter-active,
+.fade.fadeLeft-show.fadeLeft-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.fadeLeft-leave.fadeLeft-leave-active,
+.fade.fadeLeft-hide.fadeLeft-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.fadeLeftBig {
   -webkit-animation-name: fadeInLeftBig;
-  -moz-animation-name: fadeInLeftBig;
-  -o-animation-name: fadeInLeftBig;
   animation-name: fadeInLeftBig;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.fadeLeftBig-remove {
+/* line 11, src/style/angular-animate.sass */
+.fadeLeftBig-enter,
+.fadeLeftBig-show {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.fadeLeftBig-leave,
+.fadeLeftBig-hide {
   -webkit-animation-name: fadeOutLeftBig;
-  -moz-animation-name: fadeOutLeftBig;
-  -o-animation-name: fadeOutLeftBig;
   animation-name: fadeOutLeftBig;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.fadeRight {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.fadeLeftBig-enter,
+.fadeLeftBig-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.fadeRight-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.fadeLeftBig-enter.fadeLeftBig-enter-active,
+.fade.fadeLeftBig-show.fadeLeftBig-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.fadeLeftBig-leave.fadeLeftBig-leave-active,
+.fade.fadeLeftBig-hide.fadeLeftBig-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.fadeRight {
   -webkit-animation-name: fadeInRight;
-  -moz-animation-name: fadeInRight;
-  -o-animation-name: fadeInRight;
   animation-name: fadeInRight;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.fadeRight-remove {
+/* line 11, src/style/angular-animate.sass */
+.fadeRight-enter,
+.fadeRight-show {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.fadeRight-leave,
+.fadeRight-hide {
   -webkit-animation-name: fadeOutRight;
-  -moz-animation-name: fadeOutRight;
-  -o-animation-name: fadeOutRight;
   animation-name: fadeOutRight;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.fadeRightBig {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.fadeRight-enter,
+.fadeRight-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.fadeRightBig-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.fadeRight-enter.fadeRight-enter-active,
+.fade.fadeRight-show.fadeRight-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.fadeRight-leave.fadeRight-leave-active,
+.fade.fadeRight-hide.fadeRight-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.fadeRightBig {
   -webkit-animation-name: fadeInRightBig;
-  -moz-animation-name: fadeInRightBig;
-  -o-animation-name: fadeInRightBig;
   animation-name: fadeInRightBig;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.fadeRightBig-remove {
+/* line 11, src/style/angular-animate.sass */
+.fadeRightBig-enter,
+.fadeRightBig-show {
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.fadeRightBig-leave,
+.fadeRightBig-hide {
   -webkit-animation-name: fadeOutRightBig;
-  -moz-animation-name: fadeOutRightBig;
-  -o-animation-name: fadeOutRightBig;
   animation-name: fadeOutRightBig;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.bounceInOut {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.fadeRightBig-enter,
+.fadeRightBig-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.bounceInOut-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.fadeRightBig-enter.fadeRightBig-enter-active,
+.fade.fadeRightBig-show.fadeRightBig-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.fadeRightBig-leave.fadeRightBig-leave-active,
+.fade.fadeRightBig-hide.fadeRightBig-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.bounceInOut {
   -webkit-animation-name: bounceIn;
-  -moz-animation-name: bounceIn;
-  -o-animation-name: bounceIn;
   animation-name: bounceIn;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.bounceInOut-remove {
+/* line 11, src/style/angular-animate.sass */
+.bounceInOut-enter,
+.bounceInOut-show {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.bounceInOut-leave,
+.bounceInOut-hide {
   -webkit-animation-name: bounceOut;
-  -moz-animation-name: bounceOut;
-  -o-animation-name: bounceOut;
   animation-name: bounceOut;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.bounceUp {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.bounceInOut-enter,
+.bounceInOut-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.bounceUp-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.bounceInOut-enter.bounceInOut-enter-active,
+.fade.bounceInOut-show.bounceInOut-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.bounceInOut-leave.bounceInOut-leave-active,
+.fade.bounceInOut-hide.bounceInOut-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.bounceUp {
   -webkit-animation-name: bounceInUp;
-  -moz-animation-name: bounceInUp;
-  -o-animation-name: bounceInUp;
   animation-name: bounceInUp;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.bounceUp-remove {
+/* line 11, src/style/angular-animate.sass */
+.bounceUp-enter,
+.bounceUp-show {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.bounceUp-leave,
+.bounceUp-hide {
   -webkit-animation-name: bounceOutUp;
-  -moz-animation-name: bounceOutUp;
-  -o-animation-name: bounceOutUp;
   animation-name: bounceOutUp;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.bounceDown {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.bounceUp-enter,
+.bounceUp-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.bounceDown-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.bounceUp-enter.bounceUp-enter-active,
+.fade.bounceUp-show.bounceUp-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.bounceUp-leave.bounceUp-leave-active,
+.fade.bounceUp-hide.bounceUp-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.bounceDown {
   -webkit-animation-name: bounceInDown;
-  -moz-animation-name: bounceInDown;
-  -o-animation-name: bounceInDown;
   animation-name: bounceInDown;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.bounceDown-remove {
+/* line 11, src/style/angular-animate.sass */
+.bounceDown-enter,
+.bounceDown-show {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.bounceDown-leave,
+.bounceDown-hide {
   -webkit-animation-name: bounceOutDown;
-  -moz-animation-name: bounceOutDown;
-  -o-animation-name: bounceOutDown;
   animation-name: bounceOutDown;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.bounceLeft {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.bounceDown-enter,
+.bounceDown-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.bounceLeft-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.bounceDown-enter.bounceDown-enter-active,
+.fade.bounceDown-show.bounceDown-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.bounceDown-leave.bounceDown-leave-active,
+.fade.bounceDown-hide.bounceDown-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.bounceLeft {
   -webkit-animation-name: bounceInLeft;
-  -moz-animation-name: bounceInLeft;
-  -o-animation-name: bounceInLeft;
   animation-name: bounceInLeft;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.bounceLeft-remove {
+/* line 11, src/style/angular-animate.sass */
+.bounceLeft-enter,
+.bounceLeft-show {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.bounceLeft-leave,
+.bounceLeft-hide {
   -webkit-animation-name: bounceOutLeft;
-  -moz-animation-name: bounceOutLeft;
-  -o-animation-name: bounceOutLeft;
   animation-name: bounceOutLeft;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.bounceRight {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.bounceLeft-enter,
+.bounceLeft-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.bounceRight-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.bounceLeft-enter.bounceLeft-enter-active,
+.fade.bounceLeft-show.bounceLeft-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.bounceLeft-leave.bounceLeft-leave-active,
+.fade.bounceLeft-hide.bounceLeft-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.bounceRight {
   -webkit-animation-name: bounceInRight;
-  -moz-animation-name: bounceInRight;
-  -o-animation-name: bounceInRight;
   animation-name: bounceInRight;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.bounceRight-remove {
+/* line 11, src/style/angular-animate.sass */
+.bounceRight-enter,
+.bounceRight-show {
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.bounceRight-leave,
+.bounceRight-hide {
   -webkit-animation-name: bounceOutRight;
-  -moz-animation-name: bounceOutRight;
-  -o-animation-name: bounceOutRight;
   animation-name: bounceOutRight;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.rotate {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.bounceRight-enter,
+.bounceRight-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.rotate-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.bounceRight-enter.bounceRight-enter-active,
+.fade.bounceRight-show.bounceRight-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.bounceRight-leave.bounceRight-leave-active,
+.fade.bounceRight-hide.bounceRight-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.rotate {
   -webkit-animation-name: rotateIn;
-  -moz-animation-name: rotateIn;
-  -o-animation-name: rotateIn;
   animation-name: rotateIn;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.rotate-remove {
+/* line 11, src/style/angular-animate.sass */
+.rotate-enter,
+.rotate-show {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.rotate-leave,
+.rotate-hide {
   -webkit-animation-name: rotateOut;
-  -moz-animation-name: rotateOut;
-  -o-animation-name: rotateOut;
   animation-name: rotateOut;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.rotateUp {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.rotate-enter,
+.rotate-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.rotateUp-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.rotate-enter.rotate-enter-active,
+.fade.rotate-show.rotate-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.rotate-leave.rotate-leave-active,
+.fade.rotate-hide.rotate-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.rotateUp {
   -webkit-animation-name: rotateInUp;
-  -moz-animation-name: rotateInUp;
-  -o-animation-name: rotateInUp;
   animation-name: rotateInUp;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.rotateUp-remove {
+/* line 11, src/style/angular-animate.sass */
+.rotateUp-enter,
+.rotateUp-show {
+  -webkit-animation-name: rotateInUp;
+  animation-name: rotateInUp;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.rotateUp-leave,
+.rotateUp-hide {
   -webkit-animation-name: rotateOutUp;
-  -moz-animation-name: rotateOutUp;
-  -o-animation-name: rotateOutUp;
   animation-name: rotateOutUp;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.rotateDown {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.rotateUp-enter,
+.rotateUp-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.rotateDown-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.rotateUp-enter.rotateUp-enter-active,
+.fade.rotateUp-show.rotateUp-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.rotateUp-leave.rotateUp-leave-active,
+.fade.rotateUp-hide.rotateUp-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.rotateDown {
   -webkit-animation-name: rotateInDown;
-  -moz-animation-name: rotateInDown;
-  -o-animation-name: rotateInDown;
   animation-name: rotateInDown;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.rotateDown-remove {
+/* line 11, src/style/angular-animate.sass */
+.rotateDown-enter,
+.rotateDown-show {
+  -webkit-animation-name: rotateInDown;
+  animation-name: rotateInDown;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.rotateDown-leave,
+.rotateDown-hide {
   -webkit-animation-name: rotateOutDown;
-  -moz-animation-name: rotateOutDown;
-  -o-animation-name: rotateOutDown;
   animation-name: rotateOutDown;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.rotateLeft {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.rotateDown-enter,
+.rotateDown-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.rotateLeft-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.rotateDown-enter.rotateDown-enter-active,
+.fade.rotateDown-show.rotateDown-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.rotateDown-leave.rotateDown-leave-active,
+.fade.rotateDown-hide.rotateDown-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.rotateLeft {
   -webkit-animation-name: rotateInLeft;
-  -moz-animation-name: rotateInLeft;
-  -o-animation-name: rotateInLeft;
   animation-name: rotateInLeft;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.rotateLeft-remove {
+/* line 11, src/style/angular-animate.sass */
+.rotateLeft-enter,
+.rotateLeft-show {
+  -webkit-animation-name: rotateInLeft;
+  animation-name: rotateInLeft;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.rotateLeft-leave,
+.rotateLeft-hide {
   -webkit-animation-name: rotateOutLeft;
-  -moz-animation-name: rotateOutLeft;
-  -o-animation-name: rotateOutLeft;
   animation-name: rotateOutLeft;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.rotateRight {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.rotateLeft-enter,
+.rotateLeft-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.rotateRight-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.rotateLeft-enter.rotateLeft-enter-active,
+.fade.rotateLeft-show.rotateLeft-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.rotateLeft-leave.rotateLeft-leave-active,
+.fade.rotateLeft-hide.rotateLeft-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.rotateRight {
   -webkit-animation-name: rotateInRight;
-  -moz-animation-name: rotateInRight;
-  -o-animation-name: rotateInRight;
   animation-name: rotateInRight;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.rotateRight-remove {
+/* line 11, src/style/angular-animate.sass */
+.rotateRight-enter,
+.rotateRight-show {
+  -webkit-animation-name: rotateInRight;
+  animation-name: rotateInRight;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.rotateRight-leave,
+.rotateRight-hide {
   -webkit-animation-name: rotateOutRight;
-  -moz-animation-name: rotateOutRight;
-  -o-animation-name: rotateOutRight;
   animation-name: rotateOutRight;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.lightSpeed {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.rotateRight-enter,
+.rotateRight-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.lightSpeed-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.rotateRight-enter.rotateRight-enter-active,
+.fade.rotateRight-show.rotateRight-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.rotateRight-leave.rotateRight-leave-active,
+.fade.rotateRight-hide.rotateRight-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.lightSpeed {
   -webkit-animation-name: lightSpeedIn;
-  -moz-animation-name: lightSpeedIn;
-  -o-animation-name: lightSpeedIn;
   animation-name: lightSpeedIn;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.lightSpeed-remove {
+/* line 11, src/style/angular-animate.sass */
+.lightSpeed-enter,
+.lightSpeed-show {
+  -webkit-animation-name: lightSpeedIn;
+  animation-name: lightSpeedIn;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.lightSpeed-leave,
+.lightSpeed-hide {
   -webkit-animation-name: lightSpeedOut;
-  -moz-animation-name: lightSpeedOut;
-  -o-animation-name: lightSpeedOut;
   animation-name: lightSpeedOut;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.hinge {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 19, src/style/angular-animate.sass */
+.fade.lightSpeed-enter,
+.lightSpeed-show {
+  opacity: 0;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.hinge-add {
+/* line 23, src/style/angular-animate.sass */
+.fade.lightSpeed-enter.lightSpeed-enter-active,
+.fade.lightSpeed-show.lightSpeed-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.lightSpeed-leave.lightSpeed-leave-active,
+.fade.lightSpeed-hide.lightSpeed-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.hinge {
   -webkit-animation-name: hinge;
-  -moz-animation-name: hinge;
-  -o-animation-name: hinge;
   animation-name: hinge;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.hinge-remove {
+/* line 11, src/style/angular-animate.sass */
+.hinge-enter,
+.hinge-show {
   -webkit-animation-name: hinge;
-  -moz-animation-name: hinge;
-  -o-animation-name: hinge;
   animation-name: hinge;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 8, ../../src/style/angular-animate.sass */
-.animated.roll {
-  -webkit-animation-name: none;
-  -moz-animation-name: none;
-  -o-animation-name: none;
-  animation-name: none;
+/* line 15, src/style/angular-animate.sass */
+.hinge-leave,
+.hinge-hide {
+  -webkit-animation-name: hinge;
+  animation-name: hinge;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 15, ../../src/style/angular-animate.sass */
-.animated.roll-add {
+/* line 19, src/style/angular-animate.sass */
+.fade.hinge-enter,
+.hinge-show {
+  opacity: 0;
+}
+
+/* line 23, src/style/angular-animate.sass */
+.fade.hinge-enter.hinge-enter-active,
+.fade.hinge-show.hinge-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.hinge-leave.hinge-leave-active,
+.fade.hinge-hide.hinge-hide-active {
+  opacity: 0;
+}
+
+/* line 8, src/style/angular-animate.sass */
+.roll {
   -webkit-animation-name: rollIn;
-  -moz-animation-name: rollIn;
-  -o-animation-name: rollIn;
   animation-name: rollIn;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
-/* line 18, ../../src/style/angular-animate.sass */
-.animated.roll-remove {
+/* line 11, src/style/angular-animate.sass */
+.roll-enter,
+.roll-show {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 15, src/style/angular-animate.sass */
+.roll-leave,
+.roll-hide {
   -webkit-animation-name: rollOut;
-  -moz-animation-name: rollOut;
-  -o-animation-name: rollOut;
   animation-name: rollOut;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 19, src/style/angular-animate.sass */
+.fade.roll-enter,
+.roll-show {
+  opacity: 0;
+}
+
+/* line 23, src/style/angular-animate.sass */
+.fade.roll-enter.roll-enter-active,
+.fade.roll-show.roll-show-active {
+  opacity: 1;
+}
+
+/* line 27, src/style/angular-animate.sass */
+.fade.roll-leave.roll-leave-active,
+.fade.roll-hide.roll-hide-active {
+  opacity: 0;
 }
