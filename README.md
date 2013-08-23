@@ -1,6 +1,10 @@
-# Angular-animate
+# Angular-animate.css
 
-Angular-animate is a collection of animation helpers for AngularJS web apps.
+Angular-animate.css is no more. Angular.js 1.2 has totally reworked the animation module.
+
+An example of how to use animate.css in your Angular (1.2+) projects can be found here: http://plnkr.co/U1JK27T2s5nq727kygb4
+
+Angular-animate.css WAS a collection of animation helpers for AngularJS (1.1.5) web apps.
 
 Demo page is here: http://cdpn.io/rznBj
 
